@@ -12,7 +12,41 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var that = this;
+  var arr = new Array();
+  if (options.title == "热门") {
+   var location1 = { name: "1" };
+   var location2 = { name: "2" };
+   var location3 = { name: "3" };
+   var location4 = { name: "4" };
+   var location5 = { name: "5" };
+   var location6 = { name: "6" };
+   arr.push(location1);
+   arr.push(location2);
+   arr.push(location3);
+   arr.push(location4);
+   arr.push(location5);
+   arr.push(location6); 
+   console.log("OK");
+  } else {
+   var location1 = { name: "2" };
+   var location2 = { name: "4" };
+   var location3 = { name: "5" }; 
+   arr.push(location1);
+   arr.push(location2);
+   arr.push(location3); 
+  }
+  wx.setNavigationBarTitle({title:'创建新计划--'+options.title});
+  wx.getSystemInfo({
+   success: function (res) {
+    that.setData({
+     //view
+     className_height: res.windowHeight / arr.length,
+     //btn
+     array: arr,
+    })
+   }
+  }) 
   },
 
   /**

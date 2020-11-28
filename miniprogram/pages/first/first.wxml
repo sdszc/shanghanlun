@@ -1,4 +1,4 @@
 <!--miniprogram/pages/first/first.wxml-->
 <view wx:for="{{array}}" wx:key="item">
-  <button class='items'>{{items.name}}</button>
+  <button class='items'>{{item.name}}</button>
 </view>
