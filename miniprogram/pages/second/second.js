@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+
+  gotothird:function(){
+    wx.navigateTo({
+      url: '/pages/third/third',
+    })
+  },
 })

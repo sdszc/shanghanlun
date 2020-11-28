@@ -16,7 +16,7 @@
     <view style="margin:20px;display:flex;flex-direction:row;">
       <view style="width:40%;height:170px;margin:10px;">
         <image style="width:100%;height:150px;--" mode="scaleToFill" src="{{imageSrc1}}"></image>
-        <button style="width:100%" bindtap="方法名b">方证</button>
+        <button style="width:100%" bindtap="gotofirst">方证</button>
       </view>
     <view style="width:40%;height:170px;margin:10px;">
       <image style="width:100%;height:150px;" mode="scaleToFill" src="{{imageSrc2}}"></image>

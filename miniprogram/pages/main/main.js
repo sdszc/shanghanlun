@@ -63,5 +63,13 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+
+  gotofirst:function(){
+    wx.navigateTo({
+      url: '/pages/first/first',
+    })
+  },
 })
+
+

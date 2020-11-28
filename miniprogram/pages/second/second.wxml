@@ -1,5 +1,5 @@
 <!--miniprogram/pages/second/second.wxml-->
 <view>
-  <button>方药</button>
+  <button bindtap="gotothird">方药</button>
   <button>证候</button>
 </view>
