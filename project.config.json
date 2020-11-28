@@ -39,6 +39,7 @@
   "libVersion": "2.8.1",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
+  "compileType": "miniprogram",
   "condition": {
     "plugin": {
       "list": []
@@ -65,13 +66,20 @@
         },
         {
           "name": "pages/first/first",
-          "pathName": "pages/index/index",
+          "pathName": "pages/first/first",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/first/first",
-          "pathName": "pages/first/first",
+          "name": "pages/second/second",
+          "pathName": "pages/second/second",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/third/third",
+          "pathName": "pages/third/third",
+          "query": "",
           "scene": null
         }
       ]
