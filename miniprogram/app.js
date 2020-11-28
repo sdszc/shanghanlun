@@ -1,4 +1,5 @@
 //app.js
+//初始化
 App({
   onLaunch: function () {
     if (!wx.cloud) {

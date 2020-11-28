@@ -83,8 +83,19 @@
           "scene": null
         },
         {
+<<<<<<< Updated upstream
           "name": "pages/forth/forth",
           "pathName": "pages/forth/forth",
+=======
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/main/main",
+          "pathName": "pages/main/main",
+>>>>>>> Stashed changes
           "scene": null
         }
       ]
