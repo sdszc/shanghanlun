@@ -1,5 +1,14 @@
 <!--miniprogram/pages/third/third.wxml-->
-<text>方药</text>
+<view style='display: flex;align-items: center;justify-content: center;'>
+  <text >{{data1}}</text>
+</view>
+<view wx:for="{{array1}}" wx:key='item'>
+  <view style="display:flex;flex-direction:row;">
+    <button style='width:30%; margin:2px;'>{{item.name}}</button>
+    <button style='width:30%; margin:2px;'>{{item.do}}</button>
+    <text style='display: flex;align-items: center;justify-content: center;width:30%; margin:2px;'>{{item.liang}}</text>
+  </view>
+</view>
 <view>
-  
+  <textarea style="margin:12px">{{data2}}</textarea>
 </view>

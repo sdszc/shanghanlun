@@ -81,6 +81,11 @@
           "pathName": "pages/third/third",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/forth/forth",
+          "pathName": "pages/forth/forth",
+          "scene": null
         }
       ]
     }

@@ -1,18 +1,18 @@
-// miniprogram/pages/first/first.js
+// miniprogram/pages/forth/forth.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array:['桂枝汤证','桂枝加葛根汤证','桂枝加厚朴杏子汤证']
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
+
   },
 
   /**

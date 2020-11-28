@@ -4,7 +4,8 @@
     "pages/main/main",
     "pages/first/first",
     "pages/second/second",
-    "pages/third/third"
+    "pages/third/third",
+    "pages/forth/forth"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
