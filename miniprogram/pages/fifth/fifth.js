@@ -1,13 +1,11 @@
-// miniprogram/pages/forth/forth.js
+// miniprogram/pages/fifth/fifth.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array1:['太阳之为病，脉浮、头项强痛而恶寒。',
-    '太阳病，发热、汗出、恶风、脉缓者，名为中风。'
-  ]
+    array1:['桂枝汤','桂枝加葛根汤']
   },
 
   /**

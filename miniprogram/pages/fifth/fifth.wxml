@@ -1,4 +1,6 @@
-<!--miniprogram/pages/forth/forth.wxml-->
+<!--miniprogram/pages/fifth/fifth.wxml-->
+
 <view wx:for="{{array1}}" wx:key='item'>
   <text>{{item}}</text>
 </view>
+
