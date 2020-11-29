@@ -2,12 +2,15 @@
 <view style='display: flex;align-items: center;justify-content: center;'>
   <text >{{data1}}</text>
 </view>
-<view wx:for="{{array1}}" wx:key='item'>
-  <view style="display:flex;flex-direction:row;">
-    <button style='width:30%; margin:2px;'>{{item.name}}</button>
+<view>
+  <block wx:for="{{queryData}}">
+    <button style='width:30%; margin:2px;' bindtap="gotofifth" data-yaoname="{{item.yao_name}}">{{item.yao_name}}</button>
+  </block>
+  <!-- <view style="display:flex;flex-direction:row;">
+    <button style='width:30%; margin:2px;' bindtap="gotofifth">{{queryData}}</button>
     <button style='width:30%; margin:2px;'>{{item.do}}</button>
     <text style='display: flex;align-items: center;justify-content: center;width:30%; margin:2px;'>{{item.liang}}</text>
-  </view>
+  </view> -->
 </view>
 <view>
   <textarea style="margin:12px">{{data2}}</textarea>

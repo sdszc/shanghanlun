@@ -1,13 +1,12 @@
 // miniprogram/pages/forth/forth.js
+const db = wx.cloud.database()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array1:['太阳之为病，脉浮、头项强痛而恶寒。',
-    '太阳病，发热、汗出、恶风、脉缓者，名为中风。'
-  ]
+    oneQueryData : ''
   },
 
   /**
@@ -21,7 +20,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
 
   /**

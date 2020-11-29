@@ -1,25 +1,37 @@
 // miniprogram/pages/fifth/fifth.js
+const db = wx.cloud.database()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array1:['桂枝汤','桂枝加葛根汤']
+    oneQueryData : ''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var yao_name = options.yao_name
+    const _ = db.command
+    db.collection('fang_yao').where({
+      yao_name: _.eq(yao_name)
+    }).get().then(
+      res=>{
+        console.log(res)
+        this.setData({
+          oneQueryData:res.data
+        })
+      }
+    )
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+   
   },
 
   /**

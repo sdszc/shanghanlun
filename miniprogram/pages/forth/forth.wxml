@@ -1,4 +1,6 @@
 <!--miniprogram/pages/forth/forth.wxml-->
-<view wx:for="{{array1}}" wx:key='item'>
-  <text>{{item}}</text>
+<view >
+  <block wx:for="{{oneQueryData}}">
+    <view >{{item.fang_name}}</view>
+  </block>
 </view>

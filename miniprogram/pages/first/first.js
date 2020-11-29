@@ -65,9 +65,9 @@ Page({
   },
 
   // 页面跳转
-  gotosecond:function(){
+  gotosecond:function(e){
     wx.navigateTo({
-      url: '/pages/second/second',
+      url: '/pages/second/second'
     })
   },
 })
