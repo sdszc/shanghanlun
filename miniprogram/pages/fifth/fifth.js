@@ -74,5 +74,12 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  //页面跳转
+gotosecond:function(e){
+  wx.navigateTo({
+    url: '/pages/second/second'
+  })
+},
 })
+
