@@ -1,7 +1,6 @@
 <!--miniprogram/pages/forth/forth.wxml-->
 <view >
   <block wx:for="{{queryData}}">
-    <view><text>{{item.zheng_name}}</text>
-    </view>
+    <view style="margin:12px;">{{item.zheng_name}}\n</view>
   </block>
 </view>
