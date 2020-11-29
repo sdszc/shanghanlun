@@ -6,14 +6,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-    oneQueryData : ''
+    zheng_name:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var page = this
+    const _ = db.command
+    db.collection('fang_zheng').where({
+      tang_name: _.eq('桂枝汤证')
+    }).get().then(
+      res=>{
+        console.log(res)
+        page.setData({
+          queryData:res.data
+        })
+      }
+    )
   },
 
   /**
@@ -63,5 +74,6 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+
 })

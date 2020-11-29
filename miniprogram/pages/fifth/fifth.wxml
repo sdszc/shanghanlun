@@ -1,6 +1,6 @@
 <!--miniprogram/pages/fifth/fifth.wxml-->
 
 <block wx:for="{{oneQueryData}}">
-    <button bindtap="gotosecond">{{item.fang_name}}</button>
+    <button style = 'width:100%' bindtap="gotosecond">{{item.fang_name}}</button>
 </block>
-
+ 

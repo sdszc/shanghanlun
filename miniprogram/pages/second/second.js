@@ -69,4 +69,10 @@ Page({
       url: '/pages/third/third',
     })
   },
+
+  gotoforth:function(e){
+    wx.navigateTo({
+      url: '../forth/forth'
+    })
+  },
 })
